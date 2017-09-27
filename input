@@ -15,4 +15,22 @@
 00000001 # register #1
 00000010 # SET register
 00000010 # register #3
-00000101 # PRINT_NUMERIC
+00000110 # PRINT_NUMERIC
+
+1 # initialize
+2 # SET register
+0 # register #0
+4 # SAVE next
+8 # 8
+2 # SET register
+1 # register #1
+4 # SAVE next
+9 # 9
+2 # SET register
+2 # register #3
+5 # MUL into last
+0 # register #0
+1 # register #1
+2 # SET register
+2 # register #3
+6 # PRINT_NUMERIC
